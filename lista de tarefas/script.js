@@ -1,21 +1,19 @@
 
 
-const lista = []
 
 function clicou(){
 const item = document.getElementById("formulario").value 
 const pElement = document.getElementById("formMapped")
-lista.push(item)
+const p = document.createElement('p')
+p.appendChild(document.createTextNode(item));
+document.getElementById('mylist').appendChild(p)
 
-lista.map((item)=>{
 
-    pElement.innerHtml = item
-
-console.log(item + 'item')
-
-})
-
-console.log(lista)
 }
 
 
+document.getElementById('mylist').addEventListener('ondbclick', function(event) {
+    if (event.target.tagName === 'P') {
+        event.target.classList.add('display-none');
+    }
+});

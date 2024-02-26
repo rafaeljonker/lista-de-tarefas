@@ -1,0 +1,28 @@
+.display-none{
+    display: none;
+}
+
+h1{
+    text-align: center;
+}
+.grid-center{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.flex{
+    display: flex;
+    grid-column: 2;
+    justify-content: center;
+}
+    
+input{
+    width: 31.25rem;
+    height: 2.5rem;
+}
+button{
+    width: 8rem;
+    background-color: green;
+    color: white;
+    
+}
