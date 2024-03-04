@@ -5,33 +5,16 @@
 h1 {
   text-align: center;
 }
-.grid-center {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  grid-template-rows: 1fr 1fr;
-}
-
-.flex {
-  display: flex;
-  grid-column: 2;
-  justify-content: center;
-}
 
 .alinhar{
-
+  width: 60%;
+  align-self: center;
+ 
 }
 
-input {
-    width: 18.75rem;
-    height: 3.125rem;
-    
-}
-button {
-  max-width: 100%;
-  background-color: green;
-  color: white;
-  width: 6.25rem;
-  height: 3.125rem;
+
+button{
+color: gray;
 }
 
 .item {
