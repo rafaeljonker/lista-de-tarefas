@@ -12,7 +12,7 @@ document.getElementById('mylist').appendChild(p)
 }
 
 
-document.getElementById('mylist').addEventListener('ondbclick', function(event) {
+document.getElementById('mylist').addEventListener('onclick', function(event) {
     if (event.target.tagName === 'P') {
         event.target.classList.add('display-none');
     }
